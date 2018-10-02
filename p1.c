@@ -1,5 +1,5 @@
 //nome:Layanne Roberta Silva Oliveira
-//matrícula: 11811ETE012
+//matrÃ­cula: 11811ETE012
 
 #include <stdio.h>
 
@@ -8,7 +8,7 @@ int main ()
 	int estado=0, i=0;
 	char bits[256];
 	printf("\nDigite um numero binario: ");
-	scanf ("%s", &bits);
+	scanf("%[^\n]",bits);
 	while (bits[i] != '\0')
 	{
 		if (bits[i]=='0')
