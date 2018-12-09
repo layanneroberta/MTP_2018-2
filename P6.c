@@ -1,10 +1,9 @@
 // layanne roberta silva oliveira  matricula: 11811ETE012
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 
-#define pi 3.1415926535
+#define pi 3.14159265355
 #define r 1
 
 typedef struct {
@@ -25,4 +24,3 @@ int main(){
    printf("\" ");
    free(xy);
    return 0;
-}
